@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  background-color: #333;
 }
 
 a {
@@ -74,7 +75,6 @@ h2.inactive {
 
 h2.active {
   color: #0d0d0d;
-  border-bottom: 2px solid black;
 }
 
 
@@ -252,6 +252,10 @@ label.validation-message{
   background-color: black;
   content: "";
   transition: width 0.2s;
+}
+
+.underlineHover {
+  margin-bottom: 15px auto;
 }
 
 .underlineHover:hover {
